@@ -2,76 +2,114 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(28,31,40);
+}
+
+.rezume {
+    background-color: rgb(28,31,40);
 }
 
 .main{
-    background-color: rgb(97, 58, 58);
-    border-right: 1px solid white;
+    background-color: rgb(28,31,40);
+    border: 1px solid black;
     float: left;
-    height: 200vh;
     width: 25%;
-    box-sizing: border-box;
-    padding:10px;
+    padding:30px;
+    color: white;
 }
 
-.rasm{
-    border-bottom: 1px solid green;
-    height: 50vh;
-    box-sizing: border-box;
-}
-.rasm h1{
-    margin-top: 8vh;
-    text-align: center;
-    
-}
 .main img{
   border-radius: 150px;
   width: 80%;
   margin-left: 10%;
 }
 
-.contact{
-    padding: 10px;
-    height: 50vh;
-    box-sizing: border-box;
-    
-}
-.contact_information{
-    color: blue;
+h1{
+    margin: 30px;
+    font-size: 40px;
+    font-weight: 100;
     border-bottom: 1px solid white;
-    padding: 10px;
+}
+
+.contact_information{
     font-size: 25px;
 }
 
-.contact_information img
-{
-    margin-left: 50px;
+.contact_information a{
+    text-decoration: none;
+    color:white;
+    line-height: 50px;
+}
+
+.contact_information img{
     width: 25px;
 }
-.contact_information{
-    padding: 20px;
-    margin: auto;
-}
+
 .skill{
-    border-bottom: 1px solid white;
-    height: 50vh;
-    font-size: 50px;
-    box-sizing: border-box;
+    font-size: 30px;
 }
 
+.language{
+    font-size: 25px;
+}
 
-.skill h5{
-    margin-left: 100px;
+.skill_box{
+    font-size: 25px;
+    margin: 40px;
+}
+
+.skill_box li{
+    line-height: 50px;
 }
 
 .content{
     float: right;
     box-sizing: border-box;
     width: 75%;
-    height: 200vh;
-    background-color: rgb(90, 104, 90);
+    background: #fff;
+    padding: 30px;
 }
-.content_source{
-    margin-top: 40px;
-    margin-bottom: 40px;
+
+/* .content h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+} */
+
+.content p{
+    margin-top: 20px; 
+    font-size: 25px; 
+}
+
+.content h2{
+    margin-top: 30px;
+    font-size: 35px;
+    line-height: 60px;
+}
+
+.content h4{
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.border{
+    border-top: 1px solid black;
+}
+
+.name{
+    text-align: center;
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 70px;
+}
+
+.job
+{
+    text-align: center;
+    font-size: 50px;
 }
